@@ -1,13 +1,19 @@
-# socialCops
+## socialCops
 
-pre-requsite 
+
+##pre-requsite 
 mongoDB
 
-setup steps
+##setup steps
 
-npm install
+	1. npm install
 
-cd public/
-bower install
+	2. cd public/
+	3. bower install
 
-npm run runDB
+	4. npm run runDB
+
+
+## link to view
+
+	http://localhost:3050/cricket/
