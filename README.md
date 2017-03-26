@@ -1,10 +1,13 @@
 ## socialCops
 
+	assignment for apptitude test - sachin's career analysis
 
-##pre-requsite 
-mongoDB
 
-##setup steps
+## pre-requsite 
+	1. install nodejs
+	2. install mongoDB
+
+## setup steps
 
 	1. npm install
 
@@ -16,4 +19,4 @@ mongoDB
 
 ## link to view
 
-	http://localhost:3050/cricket/
+	the app : http://localhost:3050/cricket/
