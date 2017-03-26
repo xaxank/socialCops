@@ -1,0 +1,100 @@
+#map {
+    position: absolute;
+    top: 0;
+    /*left: 0;*/
+    right: 0;
+    bottom: 0;
+    /*opacity: 0.7;*/
+    width: 100%;
+    height: 100%;
+}
+
+#map > div > div {
+    background: none !important;
+}
+
+#map .gm-style > div {
+    opacity: 0.6;
+}
+
+#map .gm-style:nth-child(7){
+    opacity: 1;
+}
+
+.data-panel {
+	top: 20%;
+    right: 5px;
+    z-index: 11111;
+    position: absolute;
+    color: darkslateblue;
+    padding: 10px;
+    background: white;
+    max-width: 200px;
+}
+
+.data-panel .fields {
+    color: mediumslateblue;
+}
+
+.data-panel > * {
+	margin: 2%;
+}
+
+#searchbox {
+	width: 100%;
+    min-height: 40px;
+    margin-bottom: 5%;
+}
+
+#searchbar {
+    width: 20%;
+    margin: 10px;
+    font-size: 1.6rem;
+    top: 15% !important;
+    min-height: 40px;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+.drawing-palette {
+    position: absolute;
+    z-index: 100;
+    right: 5px;
+    font-size: 2rem;
+    top: 10px;
+    background: white;
+    padding: 10px;
+}
+
+.drawing-palette a {
+    margin:3px;
+}
+
+.drawing-palette button.active {
+    background: #0cb50d;
+}
+
+.guide-map {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    /*border-right: solid 2px;*/
+    background: white;
+}
+
+.home-chart {
+    background: url("../images/base.jpeg");
+    background-size: cover;
+    /*filter: blur(5px);*/
+    /*width: 70%;*/
+}
+
+.home-chart > div {
+    /*width: 80% !important;*/
+    float: left;
+    filter: blur(-5px);
+}
